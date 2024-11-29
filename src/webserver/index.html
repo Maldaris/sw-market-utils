@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Log File Parser</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Shop Log File Parser</h1>
+    <p class="text-center">
+        This tool lets you convert your shop log files from Stoneworks into easily consumable formats with bots (JSON) or spreadsheets (CSV).<br>
+        After clicking on shop chest/barrels in-game to see their available stock and price, 
+        you can upload your log file here to parse the shop inventories and prices, and convert it into JSON or CSV format.<br>
+        You can either drag and drop the file into the dropzone below or click to upload.</p>
+    <p class="text-center">Supports either .log files, or .gz archives!</p>
+    <div id="error-container" class="text-center" style="color: red;"></div>
+    <div class="dropzone mt-4" id="dropzone">Drop your log file here or click to upload</div>
+    <input type="file" id="fileInput" class="d-none" />
+    <div class="text-center mt-3" id="loading-spinner" style="display: none;">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="mt-4" id="output-section" style="display: none;">
+      <ul class="nav nav-tabs" id="outputTabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="json-tab" data-toggle="tab" href="#json" role="tab" aria-controls="json" aria-selected="true">
+            <i class="fas fa-code"></i> JSON
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="csv-tab" data-toggle="tab" href="#csv" role="tab" aria-controls="csv" aria-selected="false">
+            <i class="fas fa-table"></i> CSV
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="outputTabsContent">
+        <div class="tab-pane fade show active" id="json" role="tabpanel" aria-labelledby="json-tab">
+          <div class="text-center mt-3">
+            <button class="btn btn-primary" id="download-json">Download JSON</button>
+          </div>
+          <pre class="mt-4 p-3 border"><code class="language-json" id="json-output"></code></pre>
+        </div>
+        <div class="tab-pane fade" id="csv" role="tabpanel" aria-labelledby="csv-tab">
+          <div class="text-center mt-3">
+            <button class="btn btn-secondary" id="download-csv">Download CSV</button>
+          </div>
+          <pre class="mt-4 p-3 border"><code class="language-csv" id="csv-output"></code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center mt-5">
+    <p id="footer-text">Made with <span>&hearts;</span> by the 
+      <img type="image/webp" src="./assets/adramislogo.webp" alt="Adramis Mall" style="height: 45px;"> Adramis Mall, 
+      for <img type="image/webp" src="./assets/swlogo.webp" alt="Stoneworks" style="height: 45px;"> Stoneworks
+    </p>
+  </footer>
+  <script type="module" src="./index.ts"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-json.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-csv.min.js"></script>
+</body>
+</html>
