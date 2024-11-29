@@ -8,6 +8,7 @@ import 'prismjs/components/prism-csv';
 import Dropzone from './components/Dropzone/Dropzone';
 import TabContent from './components/TabContent/TabContent';
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
+import Advertisement from './components/Advertisement/Advertisement';
 
 const App = () => {
   const [error, setError] = useState<string | null>(null);
@@ -189,6 +190,7 @@ const App = () => {
           </div>
         )}
       </div>
+      <Advertisement />
     </ErrorBoundary>
   );
 };
