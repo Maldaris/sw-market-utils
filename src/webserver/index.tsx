@@ -53,7 +53,7 @@ const App = () => {
   const processContent = (content: string) => {
     try {
       const lines = content.split("\n");
-      if (lines[0] && lines[0].startsWith("Shop Information:")) { 
+      if (lines[0] && lines[0].trim().startsWith("Shop Information:")) { 
         // Lines are already cleaned up, skip cleanup
         const data = parseShopData(lines);
         if (data.length === 0) {

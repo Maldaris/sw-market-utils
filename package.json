@@ -4,6 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./dist && rm -rf ./.parcel-cache",
+    "dev": "npm run clean && parcel ./src/webserver/index.html",
     "build": "parcel build --dist-dir dist ./src/webserver/index.html",
     "start": "npx http-server ./dist"
   },
