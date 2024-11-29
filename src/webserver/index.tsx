@@ -53,12 +53,22 @@ const App = () => {
   const processContent = (content: string) => {
     try {
       const lines = content.split("\n");
-      const cleanedLines = cleanupLogFile(lines.filter(line => line.includes("[CHAT]")));
-      const data = parseShopData(cleanedLines);
-      if (data.length === 0) {
-        setError("No shop logs can be found, are you sure you've uploaded the correct logs?");
+      if (lines[0] && lines[0].startsWith("Shop Information:")) { 
+        // Lines are already cleaned up, skip cleanup
+        const data = parseShopData(lines);
+        if (data.length === 0) {
+          setError("No shop logs can be found, are you sure you've uploaded the correct logs?");
+        } else {
+          setParsedData(data);
+        }
       } else {
-        setParsedData(data);
+        const cleanedLines = cleanupLogFile(lines.filter(line => line.includes("[CHAT]")));
+        const data = parseShopData(cleanedLines);
+        if (data.length === 0) {
+          setError("No shop logs can be found, are you sure you've uploaded the correct logs?");
+        } else {
+          setParsedData(data);
+        }
       }
     } catch (err: unknown) {
       if (err instanceof Error) {
