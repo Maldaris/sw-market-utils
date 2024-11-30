@@ -1,0 +1,29 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Contract Tests",
+      "program": "${workspaceFolder}/node_modules/ts-node-dev/lib/bin.js",
+      "args": [
+        "--inspect",
+        "--respawn",
+        "--transpile-only",
+        "${workspaceFolder}/node_modules/jest/bin/jest.js",
+        "--runInBand",
+        "--testPathPattern=./test/contract"
+      ],
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "sourceMaps": true,
+      "env": {
+        "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.json",
+        "NODE_ENV": "test"
+      }
+    }
+  ]
+}

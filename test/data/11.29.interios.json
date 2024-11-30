@@ -1,0 +1,871 @@
+
+[
+  {
+    "Owner": "Troniq",
+    "Stock": 3233,
+    "Item": "White Wool",
+    "buy": {
+      "quantity": 16,
+      "value": 200
+    },
+    "sell": {
+      "quantity": 16,
+      "value": 50
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 640,
+    "Item": "Melon Slice",
+    "buy": {
+      "quantity": 64,
+      "value": 30
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 15
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 404,
+    "Item": "Cactus",
+    "buy": {
+      "quantity": 64,
+      "value": 80
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 50
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3456,
+    "Item": "Sugar Cane",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 20
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Leather",
+    "buy": {
+      "quantity": 32,
+      "value": 500
+    },
+    "sell": {
+      "quantity": 32,
+      "value": 300
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 51,
+    "Item": "Saddle",
+    "buy": {
+      "quantity": 1,
+      "value": 45
+    },
+    "sell": {
+      "quantity": 1,
+      "value": 20
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Axe",
+    "buy": {
+      "quantity": 1,
+      "value": 3000
+    },
+    "Enchants": [
+      "Dig Speed IV",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 1000
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 5,
+    "Item": "Diamond Sword",
+    "buy": {
+      "quantity": 1,
+      "value": 9000
+    },
+    "Enchants": [
+      "Fire Aspect II",
+      "Damage All V",
+      "Durability III"
+    ],
+    "RepairCost": 3,
+    "sell": {
+      "quantity": 1,
+      "value": 2000
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3,
+    "Item": "Diamond Sword",
+    "buy": {
+      "quantity": 1,
+      "value": 9000
+    },
+    "Enchants": [
+      "Fire Aspect II",
+      "Damage All V",
+      "Durability III"
+    ],
+    "RepairCost": 1,
+    "sell": {
+      "quantity": 1,
+      "value": 2000
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 5000
+    },
+    "Enchants": [
+      "Dig Speed V",
+      "Durability III"
+    ],
+    "RepairCost": 1,
+    "sell": {
+      "quantity": 1,
+      "value": 1500
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 4499
+    },
+    "Enchants": [
+      "Dig Speed V",
+      "Silk Touch I",
+      "Durability III"
+    ],
+    "RepairCost": 3
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 4500
+    },
+    "Enchants": [
+      "Dig Speed V",
+      "Silk Touch I",
+      "Durability III"
+    ],
+    "RepairCost": 1,
+    "sell": {
+      "quantity": 1,
+      "value": 1250
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 4500
+    },
+    "Enchants": [
+      "Dig Speed V",
+      "Silk Touch I",
+      "Durability III"
+    ],
+    "RepairCost": 1,
+    "sell": {
+      "quantity": 1,
+      "value": 1250
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 4000
+    },
+    "Enchants": [
+      "Dig Speed IV",
+      "Durability III"
+    ],
+    "RepairCost": 1
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 4000
+    },
+    "Enchants": [
+      "Dig Speed IV",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 2250
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 4000
+    },
+    "Enchants": [
+      "Dig Speed IV",
+      "Silk Touch I",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 1000
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1,
+    "Item": "Diamond Pickaxe",
+    "buy": {
+      "quantity": 1,
+      "value": 3000
+    },
+    "Enchants": [
+      "Dig Speed IV",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 1400
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Boots",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "RepairCost": 1
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Boots",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 1300
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Leggings",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "RepairCost": 3
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3,
+    "Item": "Diamond Leggings",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 1300
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Chestplate",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "RepairCost": 7
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Chestplate",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "sell": {
+      "quantity": 1,
+      "value": 1300
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond Helmet",
+    "buy": {
+      "quantity": 1,
+      "value": 2250
+    },
+    "Enchants": [
+      "Protection Environmental IV",
+      "Durability III"
+    ],
+    "RepairCost": 1,
+    "sell": {
+      "quantity": 1,
+      "value": 1300
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond",
+    "buy": {
+      "quantity": 64,
+      "value": 3840
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Diamond",
+    "buy": {
+      "quantity": 1,
+      "value": 60
+    },
+    "sell": {
+      "quantity": 1,
+      "value": 40
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 717,
+    "Item": "Bottle o' Enchanting",
+    "buy": {
+      "quantity": 64,
+      "value": 850
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 500
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 2628,
+    "Item": "Bottle o' Enchanting",
+    "buy": {
+      "quantity": 64,
+      "value": 799
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 600
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 462,
+    "Item": "Glass Bottle",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 10
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 2559,
+    "Item": "Lapis Lazuli",
+    "buy": {
+      "quantity": 32,
+      "value": 35
+    },
+    "sell": {
+      "quantity": 32,
+      "value": 20
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Redstone Dust",
+    "buy": {
+      "quantity": 32,
+      "value": 45
+    },
+    "sell": {
+      "quantity": 32,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 5,
+    "Item": "Coal",
+    "buy": {
+      "quantity": 32,
+      "value": 35
+    },
+    "sell": {
+      "quantity": 32,
+      "value": 25
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1734,
+    "Item": "Copper Ingot",
+    "buy": {
+      "quantity": 64,
+      "value": 60
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 277,
+    "Item": "Oak Log",
+    "buy": {
+      "quantity": 64,
+      "value": 200
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 150
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 236,
+    "Item": "Birch Log",
+    "buy": {
+      "quantity": 64,
+      "value": 200
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 150
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1752,
+    "Item": "Dark Oak Log",
+    "buy": {
+      "quantity": 64,
+      "value": 200
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 150
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 2641,
+    "Item": "Spruce Log",
+    "buy": {
+      "quantity": 64,
+      "value": 200
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 150
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 619,
+    "Item": "Jungle Log",
+    "buy": {
+      "quantity": 64,
+      "value": 230
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 160
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 895,
+    "Item": "Cherry Log",
+    "buy": {
+      "quantity": 64,
+      "value": 230
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 160
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3361,
+    "Item": "Gravel",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Dirt",
+    "buy": {
+      "quantity": 64,
+      "value": 60
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3456,
+    "Item": "Stone",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3456,
+    "Item": "Stone",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 29
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3456,
+    "Item": "Stone",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 28
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 467,
+    "Item": "Cobblestone",
+    "buy": {
+      "quantity": 64,
+      "value": 51
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 15
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3264,
+    "Item": "Cobblestone",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 25
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 2420,
+    "Item": "Diorite",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1441,
+    "Item": "Granite",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Andesite",
+    "buy": {
+      "quantity": 64,
+      "value": 65
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 50
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3072,
+    "Item": "Tuff",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 20
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1635,
+    "Item": "Deepslate",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3456,
+    "Item": "Cobbled Deepslate",
+    "buy": {
+      "quantity": 64,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 30
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 409,
+    "Item": "Dripstone Block",
+    "buy": {
+      "quantity": 16,
+      "value": 50
+    },
+    "sell": {
+      "quantity": 16,
+      "value": 25
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 2161,
+    "Item": "Pointed Dripstone",
+    "buy": {
+      "quantity": 64,
+      "value": 100
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 50
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Sand",
+    "buy": {
+      "quantity": 64,
+      "value": 60
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 36
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 3456,
+    "Item": "Netherrack",
+    "buy": {
+      "quantity": 64,
+      "value": 20
+    },
+    "sell": {
+      "quantity": 64,
+      "value": 5
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 0,
+    "Item": "Shroomlight",
+    "buy": {
+      "quantity": 1,
+      "value": 80
+    },
+    "sell": {
+      "quantity": 1,
+      "value": 25
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 2832,
+    "Item": "Glowstone Dust",
+    "buy": {
+      "quantity": 1,
+      "value": 50
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 154,
+    "Item": "Iron Ingot",
+    "buy": {
+      "quantity": 0,
+      "value": 0
+    },
+    "sell": {
+      "quantity": 1,
+      "value": 25
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 64,
+    "Item": "Gold Ingot",
+    "buy": {
+      "quantity": 0,
+      "value": 0
+    },
+    "sell": {
+      "quantity": 1,
+      "value": 90
+    }
+  },
+  {
+    "Owner": "Troniq",
+    "Stock": 1,
+    "Item": "Beacon",
+    "buy": {
+      "quantity": 1,
+      "value": 100000
+    }
+  },
+  {
+    "Owner": "Wiizzel",
+    "Stock": 4,
+    "Item": "Totem of Undying",
+    "buy": {
+      "quantity": 1,
+      "value": 20000
+    }
+  },
+  {
+    "Owner": "Wiizzel",
+    "Stock": 3,
+    "Item": "Nether Star",
+    "buy": {
+      "quantity": 1,
+      "value": 95000
+    }
+  }
+]

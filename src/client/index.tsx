@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { flattenItem, cleanupLogFile, parseShopData, ShopItem } from '../common';
 import { Parser } from "@json2csv/plainjs";
 import Prism from 'prismjs';
@@ -195,4 +195,5 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const root = createRoot(document.getElementById('root')!);
+root.render(<App />);
