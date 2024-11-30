@@ -7,8 +7,8 @@
     "test:contract": "jest --testPathPattern=./test/contract",
     "test:unit": "jest --testPathPattern=./test/unit",
     "clean": "rm -rf ./dist && rm -rf ./.parcel-cache",
-    "dev": "npm run clean && parcel ./src/webserver/index.html",
-    "build": "parcel build --dist-dir dist ./src/webserver/index.html",
+    "dev": "npm run clean && parcel ./src/client/index.html",
+    "build": "parcel build --dist-dir dist ./src/client/index.html",
     "start": "npx http-server ./dist"
   },
   "author": "",
