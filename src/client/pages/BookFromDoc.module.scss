@@ -1,0 +1,56 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+span {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.statistics {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+
+    .btn {
+        margin: 5px;
+    }
+}
