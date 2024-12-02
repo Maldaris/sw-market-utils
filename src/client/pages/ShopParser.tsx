@@ -140,6 +140,7 @@ export const ShopParser = () => {
           <p className="text-center">Supports either .log files, or .gz archives!</p>
           {error && <div id="error-container" className="text-center" style={{ color: 'red' }}>{error}</div>}
           <Dropzone onFileUpload={handleFile} fileName={fileName} />
+          <Advertisement />
           {loading && (
             <div className="text-center mt-3" id="loading-spinner">
               <div className="spinner-border" role="status">
