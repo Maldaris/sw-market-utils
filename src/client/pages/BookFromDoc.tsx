@@ -5,6 +5,7 @@ import styles from './BookFromDoc.module.scss';
 import { Converter } from 'showdown';
 import { debounce } from 'lodash';
 import JSZip from 'jszip';
+import Advertisement from '../components/Advertisement/Advertisement';
 
 const PAGES_PER_BOOK = 100;
 
@@ -20,6 +21,8 @@ export const BookFromDoc = () => {
     useEffect(() => {
         setPageCount(stendhalContent.split('#- ').length - 1);
     }, [stendhalContent]);
+
+    const booksRequired = Math.ceil(pageCount / PAGES_PER_BOOK);
 
     useEffect(() => {
         if (stendhalContent) {
@@ -257,6 +260,21 @@ export const BookFromDoc = () => {
     return (
         <div className={styles.container}>
             <h1>Stendhal Book Converter</h1>
+            <p>
+                This tool allows you to convert .docx or .md files into the Stendhal book format. 
+                Simply upload your file, and the tool will process it into a format suitable for Stendhal books.
+                You can adjust the title, author, and the maximum number of characters per page.
+                For more information about Stendhal, visit <a href="https://modrinth.com/mod/stendhal" target="_blank" rel="noopener noreferrer">Stendhal on Modrinth</a>.
+            </p>
+            <p>
+                Instructions:
+                <ol>
+                    <li>Upload a .docx or .md file using the file input below.</li>
+                    <li>Adjust the title and author fields as needed.</li>
+                    <li>Set the maximum number of characters per page using the slider or number input.</li>
+                    <li>Once the file is processed, you can download the Stendhal formatted content or copy it to the clipboard.</li>
+                </ol>
+            </p>
             <div>
                 <label>
                     Title:
@@ -301,19 +319,27 @@ export const BookFromDoc = () => {
             {!loading && stendhalContent && (
                 <>
                     <textarea value={stendhalContent} readOnly rows={20} cols={80} />
+                    <div className={styles.instructions}>
+                        <p>
+                            The text area above shows the Stendhal formatted content. Page breaks are indicated by the "#- " marker.
+                            Each page starts with this marker, followed by the content of that page.
+                        </p>
+                    </div>
                     <div className={styles.statistics}>
                         <p>Pages Generated: {pageCount}</p>
+                        <p>Books Required: {booksRequired}</p>
                     </div>
-                    <div className={styles.actions}>
+                    <div className={styles.actions + " text-center mt-3"}>
                         <button className="btn btn-primary" onClick={handleDownload}>
-                            <i className="fas fa-book"></i> Download as .stendhal
+                            <i className="fas fa-book"></i> {stendhalContent.split(/title: .*\nauthor: .*\npages:/g).length > 2 ? 'Download all books as .zip' : 'Download as .stendhal'}
                         </button>
-                        <button className="btn btn-secondary" onClick={handleCopy}>
+                        <button className="btn btn-secondary ml-2" onClick={handleCopy}>
                             <i className="fas fa-copy"></i> Copy to Clipboard
                         </button>
                     </div>
                 </>
             )}
+            <Advertisement />
         </div>
     );
 };

@@ -1,8 +1,8 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: unset;
+  padding: 0;
 }
 
 .dropzone {
@@ -82,4 +82,12 @@ body {
 .app-content {
   flex: 1;
   padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header {
+  h1 {
+    color: white;
+  }
 }
